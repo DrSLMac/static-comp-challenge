@@ -1,16 +1,10 @@
-/* * {
-    border: solid 2px red;
-  }  */
-
 html, body {
-    /* height: 100%; */
-    /* background-size: cover; */
     font-family: 'Acme', sans-serif;
   }
 
 main {
     background-color: beige;
-    height: 100%;
+    height: 100vh;
 }  
 
 header {
@@ -31,7 +25,6 @@ nav {
  
 .nav-bar {
     display: flex;
-    /* flex-direction: row; */
 }
     
     
@@ -42,9 +35,7 @@ nav {
 .user-area {
     display: flex;
     width: 70%;
-    /* height: 10vh; */
     flex-direction: column;
-    /* justify-content: flex-end; */
     align-items: flex-end;
     padding-right: 10px;
     padding-top: 5px
@@ -53,11 +44,11 @@ nav {
 .user-login {
     display: flex;
     align-items: center;
-    flex-direction: row;
+   
 }
     
 .cat-logo {
-    /* padding: 5px; */
+ 
     height: 60px;
 }
 
@@ -80,8 +71,6 @@ p {
 
  /* 👇🏼 Main Page Grid 👇🏼 📦 */ 
  .wrapper {
-    /* padding: 10px;
-    height: 100%; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -94,15 +83,6 @@ p {
     grid-row-gap: 24px;
     padding: 20px;
   }
-    
-    /* .card1 { grid-area: 1 / 1 / 2 / 2; }
-    .card2 { grid-area: 1 / 2 / 2 / 3; }
-    .card3 { grid-area: 1 / 3 / 2 / 4; }
-    .card4 { grid-area: 1 / 4 / 2 / 5; }
-    .card5 { grid-area: 2 / 1 / 3 / 2; }
-    .card6 { grid-area: 2 / 2 / 3 / 3; }
-    .card7 { grid-area: 2 / 3 / 3 / 4; }
-    .card8 { grid-area: 2 / 4 / 3 / 5; } */
 
     /* 👇🏼 Each Card 👇🏼 🪪 */
 .whole-card {
@@ -114,7 +94,6 @@ p {
     height: 150px;
     display: block;
     position: relative;
-    object-fit: contain;
 }
 
 .top-card-text {
@@ -124,13 +103,13 @@ p {
     position: absolute;
     flex-direction: column;
     align-items: flex-end;
-    /* padding-right: 10px; */
+    padding-right: 10px;
     padding-top: 4px;
 }
 
 .card-image {
     display: flex;
-    object-fit:fill;
+    /* object-fit:fill; */
     height: 180px;
     width: 100%;
   }
@@ -145,7 +124,7 @@ p {
 .lower-half {
     padding: 10px;
     display: flex;
-    height: 197px;
+    height: 200px;
     flex-direction: column;
     justify-content: space-between;
 }  
