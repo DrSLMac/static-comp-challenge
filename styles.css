@@ -31,14 +31,14 @@ body {
   
   .share-icon {
     height: 25px;
-    filter: invert(100%) sepia(8%) saturate(206%) hue-rotate(221deg) brightness(115%) contrast(87%);
+    filter: invert(100%) sepia(10%) saturate(206%) hue-rotate(221deg) brightness(115%) contrast(87%);
     padding-right: 10px;
   }
   
   .playlist-icon,
   .personal-icon {
     height: 25px;
-    filter: invert(59%) sepia(85%) saturate(1849%) hue-rotate(170deg) brightness(100%) contrast(101%);
+    filter: invert(100%) sepia(10%) saturate(1849%) hue-rotate(170deg) brightness(100%) contrast(101%);
     padding-right: 10px;
   }
   
@@ -78,14 +78,13 @@ body {
   
   .cat-logo {
     height: 50px;
-    filter: invert(100%) sepia(0%) saturate(7448%) hue-rotate(128deg) brightness(113%) contrast(113%);
+    filter: invert(65%) sepia(0%) saturate(7448%) hue-rotate(128deg) brightness(113%) contrast(113%);
     margin-left: 3px;
   }
   
   .shares-title {
     color: #4D4D4D;
     font-size: 40px;
-    font-weight:900;
     margin-left: 15px;
   }
 
@@ -101,7 +100,7 @@ body {
     background-color: #FFFFFF;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
     margin: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 95px;
   }
   
   .kitty-portal-1,
@@ -115,7 +114,7 @@ body {
     background-color: #26B6FD;
     background-size: cover;
     color: #FFFFFF;
-    height: 40%;
+    height: 70%;
     display: flex;
     justify-content: space-between;
     filter: brightness(90%);
@@ -123,35 +122,35 @@ body {
   }
   
   .kitty-portal-1 {
-    background-image: url("/assets/four-kitties.png");
+    background-image: url("assets/four-kitties.png");
   }
   
   .kitty-portal-2 {
-    background-image: url("/assets/hiding-kitty.png");
+    background-image: url("assets/hiding-kitty.png");
   }
   
   .kitty-portal-3 {
-    background-image: url("/assets/kitty-and-mouse.png");
+    background-image: url("assets/kitty-and-mouse.png");
   }
   
   .kitty-portal-4 {
-    background-image: url("/assets/kitty-on-dog.png");
+    background-image: url("assets/kitty-on-dog.png");
   }
   
   .kitty-portal-5 {
-    background-image: url("/assets/kitty-under-hat.png");
+    background-image: url("assets/kitty-under-hat.png");
   }
   
   .kitty-portal-6 {
-    background-image: url("/assets/napping-kitty.png");
+    background-image: url("assets/napping-kitty.png");
   }
   
   .kitty-portal-7 {
-    background-image: url("/assets/playing-kitty.png");
+    background-image: url("assets/playing-kitty.png");
   }
   
   .kitty-portal-8 {
-    background-image: url("/assets/white-kitty.png");
+    background-image: url("assets/white-kitty.png");
   }
   
   .arrow-container {
@@ -201,50 +200,48 @@ body {
   }
   
   .date {
-    font-size: 15px;
-    font-weight: 100;
+    font-size: 12px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     margin-left: 10px;
   }
   
   .user-link {
     background-color: #EFEFEF;
     color: #4D4D4D;
-    font-size: 15px;
-    font-weight: 150;
+    font-size: 12px;
+    font-weight: bold;
     text-decoration: none;
-    margin: 10px;
-    padding: 10px;
+    margin: 6px;
+    padding: 6px;
   }
   
   .personal-playlist {
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 12px;
     margin-bottom: 0px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .name-playlist {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: bold;
     margin: 0;
     margin-left: 10px;
   }
   
   .attachments {
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: bold;
     margin-bottom: 0px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .num-attach {
     color: #26B6FD;
-    font-size: 35px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: bold;
     margin-left: 10px;
     margin-top: 0;
   }
