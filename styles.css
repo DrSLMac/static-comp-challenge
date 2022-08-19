@@ -58,24 +58,19 @@ body {
   .admin-icon {
     height: 3vh;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(90%) contrast(90%);
-    padding-top: 1vh;
     padding-right: 1vh;
   }
-  
-  .triangle-arrow {
-    width: 0;
-    height: 0;
-    border-left: .3vw solid transparent;
-    border-right: .3vw solid transparent;
-    border-top: .9vh solid #26B6FD;
-  }
+
+  h3 {
+    font-size: 1.5vh;
+  }  
   
   .page-name {
     display: flex;
     align-items: center;
     font-family: 'Rokkitt', serif;
     font-size: 4vh;
-    height: 9vh;
+    height: 6.5vh;
     margin-right: 4vw;
   }
   
