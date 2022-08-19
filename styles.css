@@ -8,7 +8,7 @@ body {
   color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  height: 25%;
+  height: 12vh;
   
   }
   
@@ -22,7 +22,7 @@ body {
   .nav-buttons {
     display: flex;
     align-items: center;
-    padding-left: 2em;
+    padding-left: 3vw;
   }
   
   .share-button {
@@ -30,16 +30,16 @@ body {
   }
   
   .share-icon {
-    height: 25px;
+    height: 4vh;
     filter: invert(100%) sepia(10%) saturate(206%) hue-rotate(221deg) brightness(115%) contrast(87%);
-    padding-right: 10px;
+    padding-right: .5vw;
   }
   
   .playlist-icon,
   .personal-icon {
-    height: 25px;
+    height: 4.5vh;
     filter: invert(100%) sepia(10%) saturate(1849%) hue-rotate(170deg) brightness(100%) contrast(101%);
-    padding-right: 10px;
+    padding-right: .5vw;
   }
   
   .site-control {
@@ -51,56 +51,61 @@ body {
     color: #26B6FD;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    margin-right: 6vw;
   }
   
   .admin-icon {
-    height: 25px;
-    filter: invert(63%) sepia(0%) saturate(0%) hue-rotate(359deg) brightness(96%) contrast(86%);
+    height: 3vh;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(360deg) brightness(90%) contrast(90%);
+    padding-top: 1vh;
+    padding-right: 1vh;
   }
   
   .triangle-arrow {
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 10px solid #26B6FD;
+    border-left: .3vw solid transparent;
+    border-right: .3vw solid transparent;
+    border-top: .9vh solid #26B6FD;
   }
   
   .page-name {
     display: flex;
     align-items: center;
     font-family: 'Rokkitt', serif;
-    font-size: 37px;
-    height: 50%;
-    margin-right: 15px;
+    font-size: 4vh;
+    height: 9vh;
+    margin-right: 4vw;
   }
   
   .cat-logo {
-    height: 50px;
-    filter: invert(65%) sepia(0%) saturate(7448%) hue-rotate(128deg) brightness(113%) contrast(113%);
-    margin-left: 3px;
+    height: 4.5vh;
+    filter: invert(100%) sepia(50%) saturate(100%) hue-rotate(128deg) brightness(95%) contrast(100%);
   }
   
   .shares-title {
     color: #4D4D4D;
-    font-size: 40px;
-    margin-left: 15px;
+    font-size: 4vh;
+    margin-left: 2.5vw;
+    margin-bottom: 0;
+    margin-top: .5vh;
   }
 
   section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    grid-template-columns: repeat(4, 8fr);
+    grid-template-rows: repeat(2, 8fr);
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vw;
   }
   
   article {
     background-color: #FFFFFF;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
-    margin: 10px;
-    padding-bottom: 95px;
+    box-shadow: 8px 3px 10px rgb(0 0 0 / 0.4);
+    padding-bottom: 18vh;
   }
   
   .kitty-portal-1,
@@ -114,7 +119,7 @@ body {
     background-color: #26B6FD;
     background-size: cover;
     color: #FFFFFF;
-    height: 70%;
+    height: 120%;
     display: flex;
     justify-content: space-between;
     filter: brightness(90%);
@@ -153,27 +158,17 @@ body {
     background-image: url("assets/white-kitty.png");
   }
   
-  .arrow-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-  }
-  
   .arrow {
     background-color: #FFFFFF;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 2.4vw;
+    height: 4vh;
+    margin: .75vw .75vh;
   }
   
   .view-container {
     display: flex;
-    margin: 15px;
+    margin: 1vw 1vh;
     margin-top: 0;
     flex-direction: column;
     justify-content: flex-start;
@@ -181,67 +176,68 @@ body {
   }
   
   .view-title {
-    font-size: 15px;
-    margin: 10px;
+    font-size: 1.5vh;
+    margin: 1vh;
     margin-bottom: 0;
   }
   
   .number-of-views {
-    font-size: 25px;
+    font-size: 1.5vh;
     margin-top: 0;
     margin: 0;
   }
   
   .name {
-    font-size: 20px;
-    font-weight: 900;
-    margin: 10px;
+    font-size: 2vh;
+    margin: 1vh;
+    margin-top: .5vh;
     margin-bottom: 0;
   }
   
   .date {
-    font-size: 12px;
+    font-size: 1vh;
     margin: 0;
-    margin-bottom: 14px;
-    margin-left: 10px;
+    margin-bottom: .75vh;
+    margin-left: .7vw;
   }
   
   .user-link {
     background-color: #EFEFEF;
     color: #4D4D4D;
-    font-size: 12px;
+    font-size: 1vh;
     font-weight: bold;
     text-decoration: none;
-    margin: 6px;
-    padding: 6px;
+    margin-left: .6vw;
+    margin-bottom: 3vh;
+    padding: .5vh;
   }
   
   .personal-playlist {
-    font-size: 12px;
+    font-size: 1vh;
     margin-bottom: 0px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: .6vw;
+    margin-top: 1vh;
   }
   
   .name-playlist {
-    font-size: 12px;
+    font-size: 1vh;
     font-weight: bold;
     margin: 0;
-    margin-left: 10px;
+    margin-left: .6vw;
   }
   
   .attachments {
-    font-size: 12px;
+    font-size: 1vh;
     font-weight: bold;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: .6vw;
+    margin-top: 0;
   }
   
   .num-attach {
     color: #26B6FD;
-    font-size: 20px;
+    font-size: 1.2vh;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: .6vw;
     margin-top: 0;
   }
