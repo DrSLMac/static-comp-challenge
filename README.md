@@ -4,6 +4,9 @@
 ## Technologies
  - HTML
  - CSS
+ 
+ ## Deploy
+ - Deploy the site from [here](https://drslmac.github.io/static-comp-challenge/)
 
 ## Illustrations
 <img width="1775" alt="Screen Shot 2022-08-19 at 12 00 41 PM" src="https://user-images.githubusercontent.com/102887963/185670265-7b774799-6410-4673-b7d8-e59be6387eff.png">
