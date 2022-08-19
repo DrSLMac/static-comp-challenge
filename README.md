@@ -6,7 +6,7 @@
  - CSS
 
 ## Illustrations
- <img width="1774" alt="Screen Shot 2022-08-19 at 11 37 13 AM" src="https://user-images.githubusercontent.com/102887963/185669042-1dff68b6-a015-4ebf-a1b0-4d726c3e2706.png">
+<img width="1775" alt="Screen Shot 2022-08-19 at 12 00 41 PM" src="https://user-images.githubusercontent.com/102887963/185670265-7b774799-6410-4673-b7d8-e59be6387eff.png">
 
 ## Possible Future Extensions
  - A login page would be super cool, if it were responsive in a sense of allowing users login to be saved/recipe ideas they like to be stored within their page.
